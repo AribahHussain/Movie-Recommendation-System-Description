@@ -1,0 +1,20 @@
+Project Title: Movie Recommendation System
+Dataset Used: MovieLens 100K (loaded via URL)
+Libraries: Python, Pandas, NumPy, Scikit-learn, SciPy
+
+Objective:
+To build a recommendation system that suggests relevant movies to users based on rating patterns using collaborative filtering and matrix factorization.
+
+Techniques Applied:
+
+User-Based Collaborative Filtering: Measures user similarity using cosine similarity and recommends based on ratings from similar users.
+
+Item-Based Collaborative Filtering: Measures item similarity and recommends items similar to those the user liked.
+
+Matrix Factorization (SVD): Applies Singular Value Decomposition to predict missing ratings and recommend unseen movies.
+
+Output:
+For a given user ID, the system recommends top N highest-rated movies the user hasn't seen yet.
+
+Evaluation:
+Precision@K metric can be used to evaluate how many of the recommended movies are relevant to the user.
